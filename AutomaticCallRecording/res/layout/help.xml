@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/icon"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:gravity="center"
+     >
+
+    
+       
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+         >
+
+        <Button
+            android:id="@+id/buttonDeleteRecord"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Delete Current Recording" 
+            android:background="@drawable/buttons"
+            />
+
+        <Button
+            android:id="@+id/buttonShare"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Share" 
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttons"
+            />
+         
+    </LinearLayout>
+
+</LinearLayout>
